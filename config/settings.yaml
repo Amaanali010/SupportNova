@@ -1,0 +1,79 @@
+# SupportNova Configuration Settings
+
+# System Information
+app:
+  name: "SupportNova"
+  version: "1.0.0"
+  company: "VoltKart"
+  db_path: "database/supportnova.db"
+
+# LLM / Groq API Configuration
+llm:
+  provider: "groq"
+  default_model: "qwen/qwen3.8-27b"
+  fallback_model: "openai/gpt-oss-20b"
+  max_retries: 3
+  timeout_seconds: 30
+  batch_delay_seconds: 0.5
+  prompt_version: "v1.1"
+
+# Category and Department Definitions
+# System uses these lists to validate AI and Python outputs.
+categories:
+  - "Product Defect"
+  - "Billing"
+  - "Delivery"
+  - "Refund"
+  - "Account"
+  - "Technical Support"
+  - "Service Quality"
+  - "Warranty"
+  - "Privacy"
+  - "Safety"
+  - "Staff Behavior"
+
+departments:
+  - "Billing"
+  - "Technical Support"
+  - "Logistics Support"
+  - "Returns"
+  - "Warranty"
+  - "Customer Relations"
+  - "Account Security"
+  - "Compliance"
+  - "Safety"
+  - "Management Escalations"
+
+urgency_levels:
+  - "Low"
+  - "Medium"
+  - "High"
+  - "Critical"
+
+priority_levels:
+  - "P0"
+  - "P1"
+  - "P2"
+  - "P3"
+
+# Document Precedence Hierarchy (Highest precedence first)
+document_precedence:
+  - "legal"
+  - "escalation_sop"
+  - "policy"
+  - "active_sop"
+  - "template"
+  - "faq"
+
+# Security & Sanitization Settings
+security:
+  mask_credit_cards: true
+  mask_passwords: true
+  mask_national_ids: true
+  injection_keywords:
+    - "ignore your rules"
+    - "ignore previous instructions"
+    - "approve my refund"
+    - "i am the admin"
+    - "override policy"
+    - "bypass validation"

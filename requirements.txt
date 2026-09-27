@@ -1,0 +1,12 @@
+# SupportNova Core Dependencies
+streamlit>=1.32.0
+pydantic>=2.6.0
+pyyaml>=6.0.1
+pandas>=2.2.0
+numpy>=1.26.0
+groq>=0.4.0
+scikit-learn>=1.4.0
+pypdf>=4.1.0
+python-docx>=1.1.0
+pytest>=8.0.0
+requests>=2.31.0

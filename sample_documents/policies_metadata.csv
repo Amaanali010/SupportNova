@@ -1,0 +1,11 @@
+doc_id,title,category,version,status,effective_date,expiry_date,owner,supersedes,file_path
+REF-POL-01,Refund Policy,Refund Policy,v2.0,Active,2026-09-01,2027-08-31,Returns Department,REF-POL-01 v1.0 (Superseded),sample_documents/REF-POL-01_Refund_Policy.docx
+DEL-POL-04,Delivery Policy,Delivery Policy,v1.3,Active,2026-09-01,2027-08-31,Logistics Support,DEL-POL-04 v1.2 (Superseded),sample_documents/DEL-POL-04_Delivery_Policy.docx
+ESC-SOP-01,Escalation Procedure,Escalation Procedure,v2.1,Active,2026-09-01,2027-08-31,Management Escalations,ESC-SOP-01 v2.0 (Superseded),sample_documents/ESC-SOP-01_Escalation_Procedure.pdf
+CMP-SOP-01,Complaint Handling SOP,Complaint SOP,v1.5,Active,2026-09-01,2027-08-31,Customer Relations,CMP-SOP-01 v1.4 (Superseded),sample_documents/CMP-SOP-01_Complaint_Handling_SOP.docx
+REP-POL-02,Replacement Policy,Replacement Policy,v1.1,Active,2026-09-01,2027-08-31,Returns Department,REP-POL-02 v1.0 (Superseded),sample_documents/REP-POL-02_Replacement_Policy.docx
+WAR-POL-03,Warranty Policy,Warranty Policy,v1.2,Active,2026-09-01,2027-08-31,Warranty Department,WAR-POL-03 v1.1 (Superseded),sample_documents/WAR-POL-03_Warranty_Policy.docx
+BIL-POL-01,Billing Policy,Billing Policy,v1.4,Active,2026-09-01,2027-08-31,Billing Department,BIL-POL-01 v1.3 (Superseded),sample_documents/BIL-POL-01_Billing_Policy.docx
+CAN-POL-01,Cancellation and Subscription Policy,Cancellation Policy,v1.1,Active,2026-09-01,2027-08-31,Billing Department,CAN-POL-01 v1.0 (Superseded),sample_documents/CAN-POL-01_Cancellation_and_Subscription_Policy.docx
+PRIV-POL-01,Privacy and Data Protection Policy,Privacy Policy,v2.2,Active,2026-09-01,2027-08-31,Compliance Department,PRIV-POL-01 v2.1 (Superseded),sample_documents/PRIV-POL-01_Privacy_and_Data_Protection_Policy.docx
+ACC-POL-01,Account Security Policy,Account Security Policy,v1.3,Active,2026-09-01,2027-08-31,Account Security Department,ACC-POL-01 v1.2 (Superseded),sample_documents/ACC-POL-01_Account_Security_Policy.docx
